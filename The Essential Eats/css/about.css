@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2, h3 {
+    margin: 1em 0;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #777;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+
+header {
+    background-color: #698474;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    margin-right: 20px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.about-us {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: wheat;
+}

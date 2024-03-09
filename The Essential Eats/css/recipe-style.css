@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(2, 65, 13, 0) url('greenn.jpeg') center center fixed;
+}
+
+section h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+main a:hover {
+    color: tomato;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+.recipe {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin: 5% 20% 10% 20%;
+
+}
+
+.recipe img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    width: 300px;
+    height: 200px;
+}
+
+.recipe p {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.recipe li {
+    font-size: 24px;
+}
